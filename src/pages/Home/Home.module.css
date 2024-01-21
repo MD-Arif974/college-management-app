@@ -1,0 +1,174 @@
+
+.carousel{
+    /* border:2px solid red; */
+    width:100vw;
+    height: 100vh;
+    
+}
+.innerCarousel{
+  /* border:2px solid blue; */
+  width:100%;
+  height:100%;
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  
+}
+.carouselItem{
+    width:100%;
+    height:100%;
+    /* border:2px solid blue; */
+    margin-top: 5%;
+   
+}
+.carouselItem img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.prevIconContainer{
+    border:2px solid black;
+    width:3%;
+    height:auto;
+    border-radius: 50%;
+    cursor: pointer;
+    position:absolute;
+    top:45%;
+    left:5%;
+}
+.prevIconContainer img{
+    width:100%;
+    height:100%;
+}
+
+.nextIconContainer{
+    border:2px solid black;
+    width:3%;
+    height:auto;
+    border-radius: 50%;
+    cursor: pointer;
+    position:absolute;
+    top:45%;
+    right:5%;
+}
+.nextIconContainer img{
+    width:100%;
+    height:100%;
+}
+
+/* Object of college */
+.collegeObjectiveCont{
+    /* border:2px solid red; */
+    width:70vw;
+    height:100%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    
+}
+
+.collegeObjectiveCont h1{
+    color:orangered;
+}
+
+
+.objectiveInnerCont{
+   /* border:2px solid blue; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 5%;
+}
+.cardCont{
+    border:2px solid grey;
+    width:30%;
+    height:100%;
+    font-size:1.5rem;
+    text-align: justify;
+    margin:10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    
+   
+}
+.cardCont:hover{
+    background-color: rgba(128, 128, 128, 0.301);
+}
+.cardIconCont{
+    /* border:2px solid red; */
+    width:20%;
+    height:20%;
+    margin-top:5%;
+}
+.cardIconCont img{
+    width:100%;
+    height:100%;
+}
+
+.cartItemCont{
+    /* border:2px solid red; */
+    margin-top: 5%;
+}
+.cartItemCont h3{
+    font-weight: bold;
+}
+
+
+/* Department */
+
+.departmentCont{
+    /* border:2px solid red; */
+    width:70vw;
+    height:70vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.departmentCont h1{
+    color:orangered;
+    margin-bottom: 5%;
+}
+.departmentInnerCont{
+   /* border:2px solid blue; */
+   width:100%;
+   height:100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+
+.departmentCardCont{
+    
+    width:30%;
+    height:auto;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:15px;
+    box-shadow: -1px -1px 3px 3px rgba(0,0,0,0.15);
+    transition: all 0.2s;
+    
+    
+}
+
+.departmentCartItemCont{
+    /* border:1px solid grey; */
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5%;
+   
+}

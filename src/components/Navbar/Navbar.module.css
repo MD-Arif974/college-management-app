@@ -1,0 +1,89 @@
+
+.navContainer{
+    width:100vw;
+    height:13vh;
+    border:1px solid black;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.625);
+}
+
+.logoContainer{
+    /* border:2px solid blue; */
+    margin-left: 10%;
+    margin-right:10%;
+    width:20%;
+}
+.navbarListContainer{
+  /* border:2px solid blue; */
+  width:50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+
+}
+
+.navbarListContainer ul{
+    width:100%;
+    /* border:2px solid brown; */
+    list-style: none;
+    display:flex;
+  
+
+}
+.navList{
+    /* border: 2px solid brown; */
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-right: 10%;
+    cursor: pointer;
+    color:white;
+  
+   
+    
+}
+
+.linkStyle{
+    color:white;
+    text-decoration: none;
+
+}
+.departmentContainer{
+    /* border:1px solid blue; */
+    width:auto;
+    height:auto;
+ 
+    
+}
+.departmentContainer img{
+    width:40px;
+    height:40px;
+    /* background-color: white; */
+}
+.dropDownMenu{
+    width:40%;
+    height:25vh;
+    border:2px solid grey;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:110%;
+    left:40%;
+    list-style: none;
+    border-radius: 10px;
+    display: none;
+}
+.dropDownMenu li{
+    /* display:none; */
+    /* border:2px solid red; */
+    
+   
+    width:100%;
+    height:auto;
+    padding:5px;
+    border-radius: 10px;
+    border-bottom: 2px solid gray;
+    color:black;
+    font-size:1.2rem;
+    font-weight: 350;
+}
