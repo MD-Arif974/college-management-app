@@ -19,7 +19,7 @@
     width:100%;
     height:100%;
     /* border:2px solid blue; */
-    margin-top: 5%;
+    /* margin-top: 5%; */
    
 }
 .carouselItem img{
@@ -96,6 +96,8 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    color:white;
+
     
    
 }
@@ -107,10 +109,14 @@
     width:20%;
     height:20%;
     margin-top:5%;
+   
 }
 .cardIconCont img{
     width:100%;
     height:100%;
+    filter:invert(100%);
+    -webkit-filter: invert(100%);
+   
 }
 
 .cartItemCont{
@@ -154,12 +160,12 @@
     width:30%;
     height:auto;
     border-radius: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding:15px;
-    box-shadow: -1px -1px 3px 3px rgba(0,0,0,0.15);
+    box-shadow: -1px -1px 3px 3px rgba(240, 248, 255, 0.104);
     transition: all 0.2s;
     
     
@@ -170,5 +176,106 @@
     font-size: 1rem;
     font-weight: bold;
     margin-top: 5%;
+    color:aliceblue
    
+}
+
+
+/* Contact container */
+
+#contact{
+    /* border:2px solid red; */
+    width:80%;
+    height:70vh;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(3 7 18); */
+}
+.contactCont{
+    /* border:2px solid black; */
+    width:40%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding:10px;
+    box-shadow: 1px 1px 3px 3px;
+}
+
+
+.contactCont h2{
+    color:orangered;
+    /* border:1px solid red; */
+}
+.pgoiBhopal{
+    box-shadow: 1px 1px 3px 3px ;
+    width:75%;
+    height:auto;
+    border-radius: 10px;
+    padding:5px;
+}
+.collegeBorderCont{
+    border:1px dashed black;
+    width:100%;
+    
+}
+.pgoiIndore{
+    box-shadow: 1px 1px 3px 3px ;
+    width:75%;
+    padding:5px;
+}
+.contactDetails{
+    color:aliceblue;
+    font-size: 1rem;
+}
+.contactHeading{
+    font-weight: bold;
+    color:aliceblue;
+    font-size: 1.1rem;
+}
+
+.contactFormCont{
+    /* border:2px solid blue; */
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+.contactForm{
+    /* border:2px solid red; */
+    width:80%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+
+}
+.contactForm input, textarea{
+    width:100%;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    box-shadow: 1px 1px 3px 3px ;
+    
+}
+.contactForm input,textarea::placeholder{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.contactForm button{
+    padding:10px;
+    width:50%;
+    box-shadow: 1px 1px 3px 3px;
+    border-radius: 10px;
+    color:white;
+    font-size: 1.5rem;
+    /* margin: auto; */
+    background-color: rgba(255, 68, 0, 0.587);
 }

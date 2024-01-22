@@ -1,1 +1,7 @@
 
+body{
+    margin: 0;
+    padding:0;
+    /* background-color: rgb(253 186 116); */
+    background-color: rgba(3, 7, 18, 0.948);
+}
