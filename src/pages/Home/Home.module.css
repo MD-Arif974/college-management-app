@@ -191,6 +191,7 @@
     margin-top: 10%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 2%;
     /* background-color: rgb(3 7 18); */
 }
 .contactCont{
@@ -378,6 +379,7 @@
         display: flex;
         flex-direction: column;
         gap:25px;
+        margin-bottom: 2%;
     }
 
     .contactCont{
@@ -495,6 +497,7 @@
         display: flex;
         flex-direction: column;
         gap:25px;
+        margin-bottom: 2%;
     }
 
     .contactCont{
@@ -613,6 +616,7 @@
         display: flex;
         flex-direction: column;
         gap:25px;
+        margin-bottom: 2%;
     }
 
     .contactCont{
@@ -733,6 +737,7 @@
         display: flex;
          gap:25px;
          margin-top: 8%;
+         margin-bottom: 2%;
     }
 
     .contactCont{
