@@ -48,7 +48,7 @@ const Navbar = ({scrollViewToBottom, handleDropdownMenu, activeDropdownMenu, set
             </li>
             <li className={styles.navList} onClick={scrollViewToBottom}>Contact Us</li>
             <li className={styles.navMenuList} onClick={handleDropdownMenu}>
-              <img src="./src\assets\menu-line.png" />
+              <img src="https://cdn-icons-png.flaticon.com/128/2976/2976215.png" />
               
             </li>
           </ul>
