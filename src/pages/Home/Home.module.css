@@ -525,7 +525,7 @@
 
 @media (min-width:900px) and (max-width:1200px) {
     .carousel{
-        border:2px solid crimson;
+        /* border:2px solid crimson; */
         width:100vw;
         height:auto;
         margin-bottom: 10%;

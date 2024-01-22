@@ -160,6 +160,8 @@
         display: block;
         width:6vw;
         height:6vh;
+        filter:invert(100%);
+        -webkit-filter: invert(100%);
         
     }
 
@@ -247,6 +249,8 @@
         display: block;
         width:6vw;
         height:6vh;
+        filter:invert(100%);
+        -webkit-filter: invert(100%);
         
     }
 
